@@ -9,8 +9,6 @@ from sklearn.model_selection import RandomizedSearchCV, GridSearchCV
 from sklearn.metrics import r2_score
 from sklearn.metrics import mean_squared_error
 from sklearn.metrics import mean_absolute_error
-import warnings 
-warnings.filterwarnings('ignore')
 from mpl_toolkits.mplot3d import Axes3D
 from PIL import Image
 from plotly.offline import iplot
