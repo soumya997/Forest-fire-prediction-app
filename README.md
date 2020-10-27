@@ -1,7 +1,7 @@
 # An example in Tensorflow 2.0
 
 <br>
-![img-tf2](https://i.imgur.com/KXbnThQ.png" width="500px)
+![img-tf2](https://i.imgur.com/KXbnThQ.png)
 <!-- <img src="https://i.imgur.com/KXbnThQ.png" width="500px"> -->
 <br>
 
