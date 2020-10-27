@@ -1,7 +1,7 @@
 # An example in Tensorflow 2.0
 
 <br>
-<center><img src="https://i.imgur.com/KXbnThQ.png" width="500px"></center>
+<img src="https://i.imgur.com/KXbnThQ.png" width="500px">
 <br>
 
 **Hi** reader, this is a small and simple guide to RNNs, we will discuss all the basic requirements that you will need to get started with RNNs from underneath concepts to code implementation. We will be implementing using TensorFlow 2.0.
