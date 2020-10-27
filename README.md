@@ -41,15 +41,15 @@ The structure of many to many looks like fig2.The application of many to one net
 ![Many to One](https://i.imgur.com/Zz5bcjX.png)
 #### Fig: 2
 
-Every vertical block with input and output arrows is called a RNN cell. In the beginning, it uses a vector with zeros which are named here as O0, this is only for showing the repeating structure of RNN. the circles in the blocks are activation functions. And if you check out carefully, you will observe that there are three types of weights.W which are with input word vector, W' is with RNN cell o/p and finally W'' is at the final RNN cell which helps to make the prediction.O/p of RNN cells are taken as an i/p for the next RNN cell, this is to keep the sequence information preserved. 
+Every vertical block with input and output arrows is called a RNN cell. In the beginning, it uses a vector with zeros which are named here as <strong>O<sub>0</sub></strong>, this is only for showing the repeating structure of RNN. the circles in the blocks are activation functions. And if you check out carefully, you will observe that there are three types of weights.W which are with input word vector, <strong>W'</strong> is with RNN cell o/p and finally <strong>W''</strong> is at the final RNN cell which helps to make the prediction.O/p of RNN cells are taken as an i/p for the next RNN cell, this is to keep the sequence information preserved. 
 
-Now, Oi is,
-
-
- <sup>Oi = f(Xi W+Oi W')</sup>
+Now, <strong>O<sub>i</sub></strong> is,
 
 
-And at the end, the output of the last RNN cell and the $W''$ are taken and passed through an activation function(here sigmoid is taken) to generate the prediction, Y' = S(On W''). And rest of the things are taken care of by backpropagation and gradient descent stuff, normal model training.
+<strong>O<sub>i</sub> = f(X<sub>i</sub> W+O<sub>i</sub> W')</strong>
+
+
+And at the end, the output of the last RNN cell and the <strong>W''</strong> are taken and passed through an activation function(here sigmoid is taken) to generate the prediction, <strong>Y' = S(O<sub>n</sub> W'')</strong>. And rest of the things are taken care of by backpropagation and gradient descent stuff, normal model training.
 
 
 > Note, description of all symbols are given in the image itself.
