@@ -49,21 +49,25 @@ def main_prediction():
     """
     st.markdown(html_temp,unsafe_allow_html=True)
     st.markdown("""<br>""",unsafe_allow_html=True)
-    x = st.text_input("X","Type Here")
-    y = st.text_input("Y","Type Here")
-    month = st.text_input("Month","Type Here")
-    ffmc = st.text_input("FFMC","Type Here")
-    dmc = st.text_input("DMC","Type Here")
-    dc = st.text_input("DC","Type Here")
-    temp = st.text_input("Temp","Type Here")
+    x = st.text_input("X")
+    y = st.text_input("Y")
+    month = st.text_input("Month")
+    ffmc = st.text_input("FFMC")
+    dmc = st.text_input("DMC")
+    dc = st.text_input("DC")
+    temp = st.text_input("Temp")
     result=""
     if st.button("Predict"):
-        result=predict_forest_fire(x,y,month,ffmc,dmc,dc,temp)
-        st.balloons()
-    st.success('The output is {}'.format(result))
+        try:
+            result=predict_forest_fire(x,y,month,ffmc,dmc,dc,temp)
+            st.success('The output is {}'.format(result))
+            st.balloons()
+            
+        except:
+            st.error("Please fill up all the inputs🙏")
     # st.balloons()
     if st.button("About"):
-        """The Project is Called `Forest Fire Prediction`, this is the [repository](https://github.com/dsc-iem)"""
+        """The Project is Called `Forest Fire Prediction`, this is the [GitHub Repository README](https://github.com/dsc-iem/AI-Hacktoberfest/blob/master/README.md) ,from here you can learn more about the input parameters."""
         
         
 # @st.cache
@@ -171,7 +175,7 @@ st.sidebar.markdown("""## Navigation Bar: <br> """,unsafe_allow_html=True)
 st.markdown("""<br><br>""",unsafe_allow_html=True)
 red = st.sidebar.radio(" ",["Prediction","Exploratory Data Analysis","About the Project","Collaborators of the Project"])
 # st.markdown("""<br></br> <br>""",unsafe_allow_html=True)
-st.sidebar.markdown("""<br><br><br><br><br><br><br> Thanks for visiting the site🙏""",unsafe_allow_html=True)
+st.sidebar.markdown("""<br><br><br><br><br> Thank you for visiting the site🤗""",unsafe_allow_html=True)
 st.sidebar.markdown(""" [  Our Github Repository](https://github.com/dsc-iem/AI-Hacktoberfest)""",unsafe_allow_html=True)
 
 
