@@ -403,16 +403,14 @@ if red=="Collaborators of the Project":
     <div class="github-card" data-github="soumya997" data-width="350" data-height="" data-theme="default"></div>
     <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
     
+    <div class="github-card" data-github="Nibba2018" data-width="350" data-height="" data-theme="default"></div>
+    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+    
     <div class="github-card" data-github="Dsantra92" data-width="350" data-height="" data-theme="default"></div>
     <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
     
     <div class="github-card" data-github="debangeedas" data-width="350" data-height="" data-theme="default"></div>
     <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-    
-    <div class="github-card" data-github="Nibba2018" data-width="350" data-height="" data-theme="default"></div>
-    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-
-    
 
     <div class="github-card" data-github="BALaka-18" data-width="350" data-height="" data-theme="default"></div>
     <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
