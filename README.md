@@ -46,7 +46,7 @@ Every vertical block with input and output arrows is called a RNN cell. In the b
 Now, Oi is,
 
 
- Oi = f(Xi W+Oi W')
+ <sup>Oi = f(Xi W+Oi W')</sup>
 
 
 And at the end, the output of the last RNN cell and the $W''$ are taken and passed through an activation function(here sigmoid is taken) to generate the prediction, Y' = S(On W''). And rest of the things are taken care of by backpropagation and gradient descent stuff, normal model training.
