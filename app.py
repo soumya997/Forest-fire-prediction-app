@@ -396,28 +396,43 @@ if red=="Collaborators of the Project":
     components.html(
     
     """
-    
-    <div class="github-card" data-github="khanfarhan10" data-width="350" data-height="150" data-theme="default"></div>
-    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-    
-    <div class="github-card" data-github="soumya997" data-width="350" data-height="" data-theme="default"></div>
-    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-    
-    <div class="github-card" data-github="Nibba2018" data-width="350" data-height="" data-theme="default"></div>
-    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-    
-    <div class="github-card" data-github="Dsantra92" data-width="350" data-height="" data-theme="default"></div>
-    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-    
-    <div class="github-card" data-github="debangeedas" data-width="350" data-height="" data-theme="default"></div>
-    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+    <html>
+        <head>
+            
+        </head>
 
-    <div class="github-card" data-github="BALaka-18" data-width="350" data-height="" data-theme="default"></div>
-    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+        <body>
+            <a>
+                <strong style="font-size:20px">
+                    <!-- 1khanfarhan10 &nbsp;&nbsp;-->
+                    <pre class="tab">1khanfarhan10 <a style="font-size:14px">26 commits </a><a style="color: #2bff00;font-size:10px">18,069++ </a><a style="color: #FF0000;font-size:10px">9,501--</a>   soumya997 <a style="font-size:14px">3 commits </a><a style="color: #2bff00;font-size:10px">19,938++ </a><a style="color: #FF0000;font-size:10px">3,460--</a></pre>
+                    <div class="github-card" data-github="khanfarhan10" data-width="350" data-height="150" data-theme="default"></div>
+                    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+                    <div class="github-card" data-github="soumya997" data-width="350" data-height="" data-theme="default"></div>
+                    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+                </strong> 
+                <br>
+                <strong style="font-size:20px">
+                    <!-- 1khanfarhan10 &nbsp;&nbsp;-->
+                    <pre class="tab">Nibba2018 <a style="font-size:14px">2 commits </a><a style="color: #2bff00;font-size:10px">25++ </a><a style="color: #FF0000;font-size:10px">27--</a>           Dsantra92 <a style="font-size:14px">1 commits  </a><a style="color: #2bff00;font-size:10px">1,129++ </a><a style="color: #FF0000;font-size:10px">0--</a></pre>
+                    <div class="github-card" data-github="Nibba2018" data-width="350" data-height="" data-theme="default"></div>
+                    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+                    <div class="github-card" data-github="Dsantra92" data-width="350" data-height="" data-theme="default"></div>
+                    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+                </strong>
+                <br> 
+                <strong style="font-size:20px">
+                    <!-- 1khanfarhan10 &nbsp;&nbsp;-->
+                    <pre class="tab">debangeedas <a style="font-size:14px">1 commits </a><a style="color: #2bff00;font-size:10px">40++ </a><a style="color: #FF0000;font-size:10px">0--</a>          BALaka-18 <a style="font-size:14px">1 commits </a><a style="color: #2bff00;font-size:10px">5++ </a><a style="color: #FF0000;font-size:10px">4--</a></pre>
+                    <div class="github-card" data-github="debangeedas" data-width="350" data-height="" data-theme="default"></div>
+                    <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+                    <div class="github-card" data-github="BALaka-18" data-width="350" data-height="" data-theme="default"></div>
+            <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+                </strong> 
+                
+        </body>
+    </html>
 
-    
-
-    
 
     
 
